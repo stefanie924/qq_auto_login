@@ -312,7 +312,6 @@ void Fun_TerminateProcess(CString strProcessName)
 
 					CloseHandle (hProcessHandle);
 
-					//break;//是否全部查杀还是, 只杀第一个
 				} 
 
 				//获得系统进程链表中下一个进程的信息
